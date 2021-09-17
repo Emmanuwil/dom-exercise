@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom.css" />
+    <script src="dom.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>JavaScript DOM Exercise</h1>
+        <!-- Exercise #1: SELECTING/MANIPULATING ELEMENTS-->
+        <div class="exercise1">
+            <h2>Exercise 1</h2>
+             <p id="node1">Node #1</p>
+             <!-- Select Node 1 and change the text"I used the getElementById("node1") method to access this"-->
+
+             <p class="node2">Node #2</p>
+             <!-- Select Node #2 and change the text to: "I used the getElementbyByClassName("node2") method to access this"-->
+             <h3>Node #3</h3>
+             <h4>Node #4</h4>
+             <h5>Node #5</h5>
+             <!-- Select All the h3 tags and change the text to: "I used the getElementByTagName("h3") method to access all of these" -->
+        </div>
+
+        <!--Exercise #2: Remove/Replace Elements/Objects-->
+        <div class="exercise2">
+            <h2>exercise2</h2>
+            <div id="parent"></div>
+            <!-- TODO: Create a <p> using this element.createElement() and put this text inside "I am a <p> tag" -->
+            <!-- TODO: Append the created node to the parent node using the element.appendChild() method-->
+
+            <!-- TODO: Create a <a> using this element.createElement() and put this text inside "Visit me" -->
+            <!-- TODO: Insert the created <a> after the parent but before the one you just created using the element.insertBefore() method-->
+        </div>
+
+        <!-- Exercise #3 REMOVING/REPLACING ELEMENTS/OBJECTS-->
+        <div id="exercise3">
+            <h2>Exercise 3</h2>
+            <p id="N1">Child Node #1</p>
+        </div>
+
+        <!-- Exercise #4: Animations -->
+        <div class="exercise4">
+            <h2>EXERCISE 4</h2>
+            <div id="container">
+                <div id="box"></div>
+            </div>
+        </div>
+
+        <!-- Exercise #5: DOM EVENTS -->
+        <div class="exercise5">
+            <h2>Exercise 5</h2>
+            <button id="btn">View Modal</button>
+        </div>
+    </div>
+
+</body>
+</html>
